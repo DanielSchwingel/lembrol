@@ -4,12 +4,14 @@
   "description": "Backend do Lembrol",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
   "author": "Daniel Filipe Schwingel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.1"
   }
 }
